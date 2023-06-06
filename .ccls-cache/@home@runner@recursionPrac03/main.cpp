@@ -1,11 +1,15 @@
 #include <iostream>
 
-void f(int n)
+void brackets(int n)
 {
-  std::cout<<n;
-  if(n>1) f(n-1);
-  if(n>2) f(n-2);
+  if(n>0) 
+  {
+    std::cout<<"(";
+    brackets(n-1);
+    std::cout<<")";
+  }
+  else std::cout<<"";
 }
 
 int main()
-{  f(4); }
+{  brackets(0); }
