@@ -12,4 +12,4 @@ void brackets(int n)
 }
 
 int main()
-{  brackets(0); }
+{  brackets(1); }
