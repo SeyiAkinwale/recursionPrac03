@@ -8,4 +8,4 @@ void f(int n)
 }
 
 int main()
-{  std::cout << "Hello World!\n"; }
+{  f(4); }
